@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+    background-color: #ff7272;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+li{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    background: #FFFFB9;
+    background: linear-gradient(135deg, #FFFFB9, #FD9CD9);
+    height: auto;
+    width: 100%;
+}
+.container1{
+    height: 650px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1-left{
+    width: 42%;
+    padding: 130px 75px;
+}
+.container1-left h1{
+    font-size: 50px;
+}
+.container1-left p{
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+.container1-left button{
+    margin-top: 75px;
+    height: 45px;
+    width: 220px;
+    color: white;
+    border: none;
+    background-color: #ff7272;
+    cursor: pointer;
+}
+.container1-right{
+    height: 100%;
+    width: 50%;
+    background-image: url('./pexels-robin-stickel-70497.jpg');
+    background-size: cover;
+}
+.container2{
+    height: 740px;
+    display: flex;
+    position: relative;
+}
+.container2-left{
+    height: 58%;
+    width: 40%;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    display: flex;
+    justify-content: space-between
+}
+.container2-left-box1{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container2-left-box2{
+    width: 47%;
+    height: 100%;
+    background-image: url('./pexels-mister-mister-3434523.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box1{  
+    height: 47%;
+    background-image: url("./pexels-rachel-claire-6752433.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box2{
+    height: 48%;
+    background-image: url("./pexels-eva-bronzini-6141651.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container2-right{
+    height: 36%;
+    width: 35%;
+    background-color: #ff7272;
+    position: absolute;
+    right: 200px;
+    top: 240px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container2-right p{
+    font-size: 18px;
+    margin: 28px 0px 0px 32px;
+}
+.container2-right h1{
+    font-size: 50px;
+    margin: 26px 30px 0px 32px;
+}
+.container2-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 26px 10px 0px 32px;
+    width: 80px;
+}
+.container2-right div a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+      </style>
+      </head>
+      <body>
+      <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Order">Order</a></li>
+        <li><a href="#Food">Food</a></li>
+        <li><a href="#Restaurent">Restaurent</a></li>
+        <li><a href="#Testimonials">Testimonials</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+        <li><img src="./menu-bar.png" alt="menu-bar" width="45" height="45"></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container1">
+
+          <div class="container1-left">
+              <h1>LOREM IPSUM</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                  id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                  rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                  dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                  Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                  Sed pulvinar, massa ac porta viverra.
+              </p>
+              <button>Click Me</button>
+          </div>
+
+          <div class="container1-right"></div>
+
+      </div>
+
+      <div class="container2">
+          <div class="container2-left">
+              <div class="container2-left-box1">
+                  <div class="box1"></div>
+                  <div class="box2"></div>
+              </div>
+
+              <div class="container2-left-box2">
+
+              </div>
+          </div>
+
+          <div class="container2-right">
+              <p>LOREM IPSUM</p>
+              <h1>LOREM IPSUM
+                  SET ADEMIR
+              </h1>
+              <div>
+                  <a href="#">Click</a> <img src="./icons8-arrow-30.png" alt="">
+              </div>
+              
+
+          </div>
+      </div>
+  </main>
+
+    
+</body>
+</html>
